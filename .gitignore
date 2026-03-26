@@ -1,16 +1,16 @@
-# venv
+# Virtual environments
 .venv/
 venv/
 
-#python cache
+# Python cache and artifacts
 __pycache__/
 *.py[cod]
 *$py.class
-
 build/
 dist/
 *.egg-info/
 
+# Tool caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -18,14 +18,17 @@ dist/
 .coverage.*
 htmlcov/
 
+# Environment files
 .env
 .env.*
 !.env.example
 
+# Editors and OS files
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# ds store
 .DS_Store
+
+# Logs
+*.log
